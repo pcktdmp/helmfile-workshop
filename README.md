@@ -24,6 +24,10 @@ Install helmfile
 
 https://github.com/roboll/helmfile#installation
 
+Install kubectl
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
 ## Engineer
 
 ### Part 1: Helm
