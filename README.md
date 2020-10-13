@@ -10,7 +10,7 @@ This is a repository used for a helmfile workshop
 
 # Workshop
 
-* Preparation
+## Preparation
 
 Install minikube
 
@@ -24,7 +24,7 @@ Install helmfile
 
 https://github.com/roboll/helmfile#installation
 
-* Outline
+## Engineer
 
 ** Part 1: Helm
 

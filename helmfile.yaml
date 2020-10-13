@@ -15,7 +15,7 @@ releases:
     chart: stable/mysql
     createNamespace: true
     values:
-      # in production use solutions like helm secrets!
+      # use helm secrets plugin for non-workshop use cases
       # https://github.com/zendesk/helm-secrets
       - initializationFiles:
           wordpress.sql: |-
@@ -37,5 +37,6 @@ releases:
       - externalDatabase:
           user: "wordpress"
       # use helm secrets plugin for non-workshop use cases
+      # https://github.com/zendesk/helm-secrets
       - externalDatabase:
           password: "secret"
