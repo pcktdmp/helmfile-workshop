@@ -26,7 +26,7 @@ https://github.com/roboll/helmfile#installation
 
 ## Engineer
 
-** Part 1: Helm
+### Part 1: Helm
 
 Install wordpress with defaults.
 
@@ -45,7 +45,7 @@ With `kubectl get pods -n workshop` observe which components have been installed
 
 Uninstall wordpress again using `helm ls` and `helm uninstall` and delete all created PVC's with `kubectl delete pvc --all -n workshop`.
 
-** Part 2: Helmfile
+### Part 2: Helmfile
 
 So we mature the way we work, we want to run wordpress on a separate `mysql` instance (because corporate told us to) instead of the built-in `mariadb` instance and we need to develop a "production grade" deployment workflow.
 
