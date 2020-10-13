@@ -1,0 +1,14 @@
+image:
+  registry: docker.io
+  repository: bitnami/wordpress
+
+mariadb:
+  enabled: false
+
+externalDatabase:
+  host: "database-mysql"
+  database: "wordpress"
+  user: "wordpress"
+  # use helm secrets plugin for non-workshop use cases
+  # https://github.com/zendesk/helm-secrets
+  password: "secret"

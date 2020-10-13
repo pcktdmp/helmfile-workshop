@@ -28,15 +28,4 @@ releases:
     namespace: workshop
     chart: bitnami/wordpress
     values:
-      - mariadb:
-          enabled: false
-      - externalDatabase:
-          host: "database-mysql" 
-      - externalDatabase:
-          database: "wordpress" 
-      - externalDatabase:
-          user: "wordpress"
-      # use helm secrets plugin for non-workshop use cases
-      # https://github.com/zendesk/helm-secrets
-      - externalDatabase:
-          password: "secret"
+      - "environments/{{ .Environment.Name }}/values.yaml"
