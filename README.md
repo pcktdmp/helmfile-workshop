@@ -54,7 +54,9 @@ Uninstall wordpress again using `helm ls` and `helm uninstall` and delete all cr
 
 So we mature the way we work, we want to run wordpress on a separate `mysql` instance (because corporate told us to) instead of the built-in `mariadb` instance and we need to develop a "production grade" deployment workflow.
 
-Explore https://github.com/roboll/helmfile and see if you can setup this up with `helmfile` as a tool and a `test`, `staging` and `production` equivalant.
+Explore https://github.com/roboll/helmfile and see if you can setup this up with `helmfile` as a tool and a `test`, `staging` and `production` equivalant with different versions installed of wordpress.
+
+Use the [values.yaml](https://github.com/bitnami/charts/blob/master/bitnami/wordpress/values.yaml) from the helm chart source as reference.
 
 You can use `helmfile.yaml` in this repository as a starting point and example.
 
