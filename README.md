@@ -31,6 +31,7 @@ https://github.com/roboll/helmfile#installation
 Install wordpress with defaults.
 
 `kubectl create ns workshop`
+
 `helm install workshop bitnami/wordpress -n workshop`
 
 Fetch the wordpress default login credentials with:
