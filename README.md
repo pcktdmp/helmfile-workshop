@@ -53,7 +53,7 @@ Explore https://github.com/roboll/helmfile and see if you can setup this up with
 
 You can use `helmfile.yaml` in this repository as a starting point and example.
 
-** Extra: CI/CD your deployments
+### Extra: CI/CD your deployments
 
 Think of an outline what your git strategy would be how you would apply changes to the configuration automatically with a CI/CD pipeline.
 
@@ -62,8 +62,8 @@ Think of an outline what your git strategy would be how you would apply changes 
 * When to `staging`?
 * And when and how to `production`?
 
-You could try to implement this with `https://githooks.com/#:~:text=Git%20hooks%20are%20scripts%20that,Git%20hooks%20are%20run%20locally.` although the important part is to know how to conceptually solve this.
+You could try to implement this with [git hooks](https://githooks.com/#:~:text=Git%20hooks%20are%20scripts%20that,Git%20hooks%20are%20run%20locally) although the important part is to know how to conceptually solve this.
 
-** Helm & Helmfile hero assignment: Implement Helm Secrets for managing secrets inside value files.
+### Helm & Helmfile hero assignment: Implement Helm Secrets for managing secrets inside value files.
 
 https://github.com/zendesk/helm-secrets
