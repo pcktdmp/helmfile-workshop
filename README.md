@@ -60,6 +60,8 @@ Uninstall wordpress again using `helm ls` and `helm uninstall` and delete all cr
 
 ### Part 2: Helmfile
 
+Install the `helm diff` plugin: `helm plugin install https://github.com/databus23/helm-diff`
+
 So we mature the way we work, we want to run wordpress on a separate `mysql` instance (because corporate told us to) instead of the built-in `mariadb` instance and we need to develop a "production grade" deployment workflow.
 
 Explore https://github.com/roboll/helmfile and see if you can setup this up with `helmfile` as a tool and a `test`, `staging` and `production` equivalant with different versions installed of wordpress.
