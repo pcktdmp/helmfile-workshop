@@ -34,7 +34,15 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
 Install wordpress with defaults.
 
+First add the bitnami helm repo:
+
+`helm repo add bitnami https://charts.bitnami.com/bitnami`
+
+Then create the namespace for the workshop:
+
 `kubectl create ns workshop`
+
+Finally install wordpress:
 
 `helm install workshop bitnami/wordpress -n workshop`
 
