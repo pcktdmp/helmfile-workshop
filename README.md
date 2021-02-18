@@ -83,4 +83,4 @@ You could try to implement this with [git hooks](https://githooks.com/#:~:text=G
 
 ### Helm & Helmfile hero assignment: Implement Helm Secrets for managing secrets inside value files.
 
-https://github.com/zendesk/helm-secrets
+https://github.com/jkroepke/helm-secrets
